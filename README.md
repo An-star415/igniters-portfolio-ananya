@@ -9,7 +9,18 @@ This project is designed to be easily editable. You don't need to be an expert i
 ### Step 1: Open the Project
 Open the `index.html` file in VS Code.
 
-### Step 2: Find Customizable Sections
+### Step 2: Preview the Website
+**Option A: Using Live Server (Recommended)**
+1. Install the "Live Server" extension in VS Code.
+2. Right-click on `index.html` and select "Open with Live Server".
+3. The website will launch in your browser and auto-update when you save.
+
+**Option B: Double/Right Click**
+1. Go to your file explorer.
+2. Double-click `index.html` to open it in your default browser.
+3. Refresh the page manually after making changes.
+
+### Step 3: Find Customizable Sections
 We have marked all the editable sections with clear comments.
 Press `Ctrl + F` (or `Cmd + F` on Mac) to open the search bar and type:
 
@@ -20,7 +31,7 @@ Cycle through the search results to find each section. You will see comments lik
 
 ```html
 <!-- ================= EDIT HERE: YOUR NAME ================= -->
-<h1 class="home__name">Rian Lot</h1>
+<h1 class="home__name">Chris Evans</h1>
 ```
 
 Simply replace the text inside the HTML tags with your own details.
@@ -31,7 +42,7 @@ Simply replace the text inside the HTML tags with your own details.
 
 ### 📝 Checklist of Things to Change
 - [ ] **Tab Title**: The text that appears in the browser tab.
-- [ ] **Header Name**: "Rian Lot." in the top navigation.
+- [ ] **Header Name**: "Chris Evans." in the top navigation.
 - [ ] **Home Name**: Your main display name.
 - [ ] **Role**: "Frontend Developer" etc.
 - [ ] **Social Links**: Update `href="..."` with your own profile links.
